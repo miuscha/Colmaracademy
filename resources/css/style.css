@@ -1,0 +1,157 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#banner {
+    width: 100%;
+}
+
+img, ul, video {
+    display: block;
+}
+
+video {
+width: 100%;
+}
+  
+h1, 
+h2, 
+h3, 
+p,
+a,
+#logo,
+b {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A4A4A;
+}
+
+h1 {
+
+    font-size: 32px;
+    text-align: start;
+}
+
+
+h3 {
+    font-size: 1.3rem;
+    text-align: start; 
+}
+
+#navbar-mobile {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-content: center;
+    align-items: center;
+    padding: 21px;
+    
+}
+
+.container {
+    background-color: #F5F5F5; 
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+      
+}
+
+.first {
+    justify-content: center;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.wrap:hover {
+    background-color: #D8D8D8;
+}
+
+.col {
+width: 35%;
+}
+
+.third {
+    background-color: #D8D8D8;
+}
+
+.quot-bot {
+    margin-bottom: 2.5rem;
+}
+
+footer {
+align-items: center;
+justify-content: space-between;
+border-top: 1px solid #4a4a4a;
+background-color: #f3f5f5;
+font-size: 12px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .container-fluid {
+        padding:0;
+    }
+    .navbar-mobile {
+        display: inline-flex;
+        justify-content: space-around;
+        flex-grow: 1;
+      }
+
+    #navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .black,
+    .third,
+    .hide {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .women {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #navbar-mobile {
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+          }
+    #to-shrink {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar {
+            flex-grow: 1;
+          }
+}
